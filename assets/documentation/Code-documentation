@@ -1,0 +1,37 @@
+Så vidt jeg kan se så skal der være ca. 4 main functions:
+
+1. Talks Function
+skal kunne generere indholdet på talks siden
+Brugeren skal kunne trykke på et link som findes på vores program side - enten IOT eller Desktop
+Han skal sendes til vores talks side
+Her skal funktionen kunne generere en side fra et object som viser:
+Subject headline og billede
+Subject text
+Info text om speaker
+Speaker billede
+Footer og navbar skulle ideelt være på siden igennem hard-coded HTML og CSS
+og når han forlader siden så skal den gøres blank / fjernes content (Evt. clear siden inden man generere en side hver gang.)
+
+2. Landing page news functions
+Så snart brugeren lander på landing page så skal functionen aktiveres
+funktionen skal genere et 2x4 felt
+og derefter skal den sætte 8 forskellige nyheder ind fra et data object. (Headline/Billede/URL)
+
+
+3. Tilmeldingsform validering function
+Når brugeren har indtastet sin email skal funktionen validere om det er en korrekt email som der er blevet sat ind
+Formen skal give feedback på det som der er indtastet og vise inputtet tilbage til brugeren under formen.
+- realtime validering
+Formen skal også have en sekundær funktion
+der skal være realtime validering på formen så formen viser rød indtil der er minimum 3 karaktere i inputtet
+hvorefter det røde skal fjernes.
+når felterne er korrekte skal der vises grøn, dvs. det acceptable mængde karaktere og det skal være en valid email.
+
+
+4. Interesseform validering 
+Interesseformen skal på samme måde som tilmeldingsformen validere om det er en korrekt email som er skrevet ind
+der er intet krav om realtime validering
+- hide form og vis feedback
+interesseformen skal til forskel fra tilmeldingsformen IKKE vise feedback under formen - 
+men den skal gemme formen og vise brugeren deres input i stedet for formen
+
