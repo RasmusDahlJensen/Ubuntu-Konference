@@ -1,4 +1,4 @@
-Jeg skal have 5 partials
+Jeg skal have 7 partials
 
 Farve palette
 
@@ -9,6 +9,10 @@ Navbar
 Footer
 
 Form
+
+IOT / Desktop Links
+
+IOT / Desktop kolonner
 
 
 Farve paletten skal gøres op i variabler, den skal indeholde de primære, sekundære  og neutrale farver.
@@ -49,8 +53,12 @@ Og igen skal den bare ligges i en mixin som har styling og opsætningen af min f
 Jeg vil gerne have en form mixin der styler den som jeg skal bruge den da jeg har to form på hjemmesiden - sat op så jeg kan -
 tilføje flere form elementer som jeg skal bruge dem da de to er anderledes.
 
+Jeg opretter en mixin til styling af IOT / Desktops links i min partial, til generel styling, fjerner f.eks link styling og -
+opretter mit eget.
+På samme måde opretter jeg en partial til IOT / Desktop kolonner på program siden for at give dem den rigtige width, højde, samt positionering.
 
 Udenfor partials så vil jeg starte med at oprette min main page først og opsætte HTML igennem det wireframe vi har fået leveret - 
 så jeg kan få en idé om hvordan siden skal se ud og få 'skelettet' op og stå.
 Det vil jeg forsøge at gøre med de fire sider og derefter følge deres design guide til at oprette mine mixins så jeg ved præcist hvad det er - 
 jeg skal have lavet på det jeg har oprettet og måske hvad for nogle mangler jeg har, dvs. flere partials eller mere indhold i mine partials.
+
