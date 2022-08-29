@@ -1,0 +1,56 @@
+Jeg skal have 5 partials
+
+Farve palette
+
+Font
+
+Navbar
+
+Footer
+
+Form
+
+
+Farve paletten skal gøres op i variabler, den skal indeholde de primære, sekundære  og neutrale farver.
+De skal deles op:
+
+Core colors:
+$ubuntuOrange
+$white
+$black
+
+Supporting colors:
+$lightAubergine
+$midAubergine
+$darkAubergine
+
+Neutral colors:
+$warmGrey
+$coolGrey
+$textGrey
+
+
+
+
+Font partial skal indeholde font import, samt mulige mixins og variabler for en konsistent font style igennem hele siden
+som f.eks størrelse, weight og farver
+samt et padding og margin reset til fonts så jeg selv kan bestemme hvordan de skal ligge på siden.
+
+
+
+
+en navbar partial, da den skal bruges fire gange så kan jeg bare kalde den på hver side igennem min partial
+Den partial skal være et mixin som styler placere navbaren med flex, og styler den ved et list reset.
+
+Footeren er præcist det samme, den skal bruges fire gange og så kalder jeg den bare fra min partials.
+Og igen skal den bare ligges i en mixin som har styling og opsætningen af min footer.
+
+
+Jeg vil gerne have en form mixin der styler den som jeg skal bruge den da jeg har to form på hjemmesiden - sat op så jeg kan -
+tilføje flere form elementer som jeg skal bruge dem da de to er anderledes.
+
+
+Udenfor partials så vil jeg starte med at oprette min main page først og opsætte HTML igennem det wireframe vi har fået leveret - 
+så jeg kan få en idé om hvordan siden skal se ud og få 'skelettet' op og stå.
+Det vil jeg forsøge at gøre med de fire sider og derefter følge deres design guide til at oprette mine mixins så jeg ved præcist hvad det er - 
+jeg skal have lavet på det jeg har oprettet og måske hvad for nogle mangler jeg har, dvs. flere partials eller mere indhold i mine partials.
