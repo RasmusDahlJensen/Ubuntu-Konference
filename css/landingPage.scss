@@ -1,0 +1,8 @@
+@use "font" as f;
+@use "colors" as c;
+@include f.mainFonts;
+
+*{
+    font-family: f.$ubuntuFont;
+}
+
