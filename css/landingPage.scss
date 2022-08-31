@@ -13,6 +13,7 @@
 // Footer
 @include footer.footerFlex;
 @include footer.mediaIcon;
+@include footer.footerLinks;
 
 *{
     font-family: f.$ubuntuFont;

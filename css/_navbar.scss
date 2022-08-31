@@ -7,6 +7,8 @@
 @mixin navBar {
     nav{
     height: 80px;
+    margin-bottom: 75px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.298);
     background-color: c.$coolGrey;
     display: flex;
     justify-content: center;
