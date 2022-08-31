@@ -2,7 +2,23 @@
 @use "colors" as c;
 @use "font" as f;
 
-.newsBox{
+#newsBox{
     @include centerContent.center;
-    margin: 50px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    img{
+        width: 200px;
+    }
+    h3{
+        font-size:  medium;
+    }
+    a{
+        text-decoration: none;
+        color: c.$textGrey;
+    }
+    figure{
+        margin: 2%
+    }
 }

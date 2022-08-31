@@ -3,6 +3,7 @@
 @use "navbar";
 @use "footer";
 @use "infoBox";
+@use "newsbox";
 
 // Fonts
 @include f.mainFonts;
@@ -21,6 +22,8 @@
 @include infoBox.infoContent;
 @include infoBox.infoContentQuery;
 
+//Newsbox
+
 *{
     font-family: f.$ubuntuFont;
 }
@@ -29,3 +32,6 @@ body{
     margin: 0;
 }
 
+.greyBG{
+    background-color: c.$bgGrey;
+}

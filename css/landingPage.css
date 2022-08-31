@@ -8,7 +8,29 @@ footer {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px;
+}
+
+#newsBox {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+#newsBox img {
+  width: 200px;
+}
+#newsBox h3 {
+  font-size: medium;
+}
+#newsBox a {
+  text-decoration: none;
+  color: #111111;
+}
+#newsBox figure {
+  margin: 2%;
 }
 
 nav {
@@ -160,4 +182,8 @@ nav ul li:hover {
 
 body {
   margin: 0;
+}
+
+.greyBG {
+  background-color: #f7f7f7;
 }/*# sourceMappingURL=landingPage.css.map */
