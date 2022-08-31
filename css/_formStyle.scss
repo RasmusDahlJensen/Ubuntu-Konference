@@ -1,0 +1,53 @@
+@use "centerContent";
+@use "colors" as c;
+@use "font" as f;
+
+
+.formContainer{
+    @include centerContent.center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+fieldset{
+    width: 70%;
+    height: 80%;
+}
+
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button{
+    margin-top: 4%;
+    padding: 10px 30px;
+    background-color: c.$ubuntuOrange;
+    border: none;
+    color: c.$white;
+}
+
+button:hover{
+    background-color: c.$buttonHover;
+}
+
+h2{
+    font-size: x-large;
+    font-weight: 400;
+}
+
+h3{
+    font-size: medium;
+    font-weight: 300;
+}

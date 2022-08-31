@@ -83,6 +83,56 @@ footer {
   margin: 0;
 }
 
+.formContainer {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+
+fieldset {
+  width: 70%;
+  height: 80%;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 4%;
+  padding: 10px 30px;
+  background-color: #E95420;
+  border: none;
+  color: #FFFFFF;
+}
+
+button:hover {
+  background-color: #e6450b;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: medium;
+  font-weight: 300;
+}
+
 nav {
   height: 80px;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.298);
