@@ -4,9 +4,15 @@ footer {
   border-top: 2px #E95420 solid;
 }
 
+.infoBox {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
 nav {
   height: 80px;
-  margin-bottom: 75px;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.298);
   background-color: #333333;
   display: flex;
@@ -103,6 +109,51 @@ nav ul li:hover {
   border-bottom: 1px #000000 solid;
 }
 
+.infoBox figure {
+  margin: 0;
+  padding: 0;
+}
+.infoBox img {
+  max-width: 100%;
+  filter: brightness(30%);
+  position: relative;
+}
+
+.infoContent h2 {
+  position: absolute;
+  bottom: 60%;
+  left: 25%;
+  color: #FFFFFF;
+  font-weight: 300;
+  max-width: 40%;
+  bottom: 60%;
+}
+.infoContent button {
+  position: absolute;
+  bottom: 50%;
+  left: 25%;
+  background-color: #E95420;
+  border: 0;
+  border-radius: 15px;
+  padding: 20px;
+  color: #FFFFFF;
+  font-size: x-large;
+}
+.infoContent button:hover {
+  background-color: #e6450b;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .infoContent h2 {
+    bottom: 45%;
+    font-size: 5vw;
+  }
+  .infoContent button {
+    position: relative;
+    margin-bottom: 20px;
+  }
+}
 * {
   font-family: "Ubuntu", sans-serif;
 }
