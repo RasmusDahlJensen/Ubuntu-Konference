@@ -39,6 +39,50 @@ footer {
   text-decoration: underline;
 }
 
+.links {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3% 0 3% 0;
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+  flex-wrap: wrap;
+}
+.links li {
+  list-style: none;
+}
+.links li a {
+  text-decoration: none;
+}
+.links a {
+  color: #111111;
+  font-size: larger;
+  font-weight: 300;
+  display: block;
+}
+.links li {
+  margin-top: 7%;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+.links a:first-letter {
+  color: #E95420;
+  font-weight: 400;
+}
+
+.linkTitle {
+  display: flex;
+  justify-content: flex-start;
+}
+.linkTitle h3 {
+  font-size: x-large;
+}
+.linkTitle figure {
+  margin: 0;
+}
+
 nav {
   height: 80px;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.298);

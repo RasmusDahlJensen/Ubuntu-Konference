@@ -1,0 +1,41 @@
+@use "centerContent";
+@use "colors" as c;
+@use "font" as f;
+@use "linkStyle";
+
+.links{
+    @include centerContent.center;
+    @include linkStyle.linkReset;
+    padding: 3% 0 3% 0;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    flex-wrap: wrap;
+    a{
+        color: c.$textGrey;
+        font-size: larger;
+        font-weight: 300;
+        display: block;
+    }
+    li{
+        margin-top: 7%;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    a:first-letter{
+        color: c.$ubuntuOrange;
+        font-weight: 400;
+    }
+}
+
+.linkTitle{
+    display: flex;
+    justify-content: flex-start;
+    h3{
+        font-size: x-large;
+    }
+    figure{
+        margin: 0;
+    }
+}
