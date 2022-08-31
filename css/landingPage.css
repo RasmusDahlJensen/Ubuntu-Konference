@@ -20,17 +20,23 @@ footer {
   padding: 10px 0 10px 0;
 }
 #newsBox img {
-  width: 200px;
+  width: 230px;
+  max-height: 180px;
 }
 #newsBox h3 {
-  font-size: medium;
+  font-size: large;
+  font-weight: 400;
+  width: 230px;
 }
 #newsBox a {
   text-decoration: none;
   color: #111111;
 }
 #newsBox figure {
-  margin: 2%;
+  margin: 10px;
+}
+#newsBox a:hover {
+  text-decoration: underline;
 }
 
 nav {

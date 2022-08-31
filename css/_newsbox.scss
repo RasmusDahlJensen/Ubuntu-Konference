@@ -9,16 +9,22 @@
     justify-content: center;
     padding: 10px 0 10px 0;
     img{
-        width: 200px;
+        width: 230px;
+        max-height: 180px;
     }
     h3{
-        font-size:  medium;
+        font-size:  large;
+        font-weight: 400;
+        width: 230px;
     }
     a{
         text-decoration: none;
         color: c.$textGrey;
     }
     figure{
-        margin: 2%
+        margin: 10px;
+    }
+    a:hover{
+        text-decoration: underline;
     }
 }
