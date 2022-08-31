@@ -8,7 +8,7 @@ footer {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 nav {
@@ -160,5 +160,4 @@ nav ul li:hover {
 
 body {
   margin: 0;
-  height: 100vh;
 }/*# sourceMappingURL=landingPage.css.map */

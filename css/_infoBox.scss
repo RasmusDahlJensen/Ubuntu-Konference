@@ -4,9 +4,13 @@
 
 .infoBox{
     @include centerContent.center;
-    margin-bottom: 50px;
-
+    margin-bottom: 25px;
 }
+
+// .infoAccent{
+//     border-bottom: 1px c.$borderColor solid;
+//     margin-bottom: 25px;
+// }
 
 @mixin infoImg {
     .infoBox{
