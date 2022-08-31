@@ -1,9 +1,18 @@
 @use "font" as f;
 @use "colors" as c;
 @use "navbar";
+@use "footer";
+
+// Fonts
 @include f.mainFonts;
+
+// Navigation bar
 @include navbar.navBar;
 @include navbar.adaptiveNavbar;
+
+// Footer
+@include footer.footerFlex;
+@include footer.mediaIcon;
 
 *{
     font-family: f.$ubuntuFont;
@@ -11,5 +20,6 @@
 
 body{
     margin: 0;
+    height: 100vh;
 }
 

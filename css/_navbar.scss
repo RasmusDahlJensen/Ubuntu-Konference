@@ -1,6 +1,8 @@
 @use "centerContent";
 @use "colors" as c;
 @use "font" as f;
+@use "linkStyle";
+
 
 @mixin navBar {
     nav{
@@ -14,6 +16,7 @@
         }
         ul{
             @include centerContent.center;
+            @include linkStyle.linkReset;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -23,12 +26,12 @@
             li{
                 display: flex;
                 align-items: center;
-                list-style: none;
+                // list-style: none;
                 height: 100%;
                 padding: 10px;
                 transition: 400ms;
                 a{
-                    text-decoration: none;
+                    // text-decoration: none;
                     color: c.$white;
                     font-size:x-large;
                     font-weight: 200;

@@ -1,0 +1,26 @@
+@use "centerContent";
+@use "colors" as c;
+@use "font" as f;
+@use "linkStyle";
+
+
+@mixin footerFlex {
+    .footerFlex{
+        @include linkStyle.linkReset;
+        @include centerContent.center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@mixin mediaIcon {
+    .socialMedia{
+        display: flex;
+        figure{
+            margin: 5px;
+        }
+        img{
+            height: 35px;
+        }
+    }
+}
