@@ -1,0 +1,23 @@
+@use "centerContent";
+
+@mixin navBar {
+    nav{
+    @include centerContent.center;
+        ul{
+            display: flex;
+            gap: 5%;
+            justify-content: flex-end;
+        }
+    }
+}
+
+@mixin adaptiveNavbar {
+    @media screen and (max-width:576px){
+        ul{
+        flex-direction: column;
+            li{
+                margin: 0 0 3% 0;
+            }
+        }
+    }
+}
