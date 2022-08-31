@@ -101,7 +101,7 @@ form {
 
 fieldset {
   width: 70%;
-  height: 80%;
+  min-height: 80%;
 }
 
 input {
@@ -112,11 +112,11 @@ input {
 }
 
 button {
-  margin-top: 4%;
   padding: 10px 30px;
   background-color: #E95420;
   border: none;
   color: #FFFFFF;
+  margin-top: 2%;
 }
 
 button:hover {
@@ -131,6 +131,10 @@ h2 {
 h3 {
   font-size: medium;
   font-weight: 300;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
 nav {
@@ -286,4 +290,19 @@ body {
 
 .greyBG {
   background-color: #f7f7f7;
+}
+
+.error {
+  border-color: red;
+}
+
+#errorText {
+  color: red;
+}
+
+#formFeedback {
+  height: 100%;
+  font-size: x-large;
+  text-align: center;
+  font-weight: 300;
 }/*# sourceMappingURL=landingPage.css.map */

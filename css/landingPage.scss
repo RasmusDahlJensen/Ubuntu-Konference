@@ -7,6 +7,7 @@
 @use "iotdesktop";
 @use "formStyle";
 
+
 // Fonts
 @include f.mainFonts;
 
@@ -36,4 +37,19 @@ body{
 
 .greyBG{
     background-color: c.$bgGrey;
+}
+
+.error{
+    border-color: red;
+}
+
+#errorText{
+    color: red;
+}
+
+#formFeedback{
+    height: 100%;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 300;
 }

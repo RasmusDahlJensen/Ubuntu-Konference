@@ -19,7 +19,7 @@ form{
 
 fieldset{
     width: 70%;
-    height: 80%;
+    min-height: 80%;
 }
 
 
@@ -31,11 +31,11 @@ input{
 }
 
 button{
-    margin-top: 4%;
     padding: 10px 30px;
     background-color: c.$ubuntuOrange;
     border: none;
     color: c.$white;
+    margin-top: 2%;
 }
 
 button:hover{
@@ -50,4 +50,12 @@ h2{
 h3{
     font-size: medium;
     font-weight: 300;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }

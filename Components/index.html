@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/landingPage.css">
     <script src="/js/newsbox.js" defer></script>
     <script src="/js/formValidate.js" defer></script>
+    
 </head>
 <body>
     <nav>
@@ -45,24 +46,28 @@
 </div>
 
     <div class="formContainer">
-        <form action="/">
+        <form id="form">
             <fieldset>
                 <h2>Er du interesseret i at høre mere?</h2>
                 <h3>Tilmeld dig vores nyhedsbrev</h3>
-                <div class="input">
+                <div class="input" id="nameInput">
                     <label for="fullName">Dit fulde navn:</label>
                     <input type="text" name="fullName" id="fullName">
                 </div>
-                <div class="input">
+                <div class="input" id="emailInput">
                     <label for="email">Din email:</label>
                     <input type="text" name="email" id="email">
+                    <span id="errorText" style="display:none;">Du har indtastet din email forkert</span>
                 </div>
-                <button id="formSubmit">Send</button>
+                <button type="button" id="formSubmit">Send</button>
             </fieldset>
         </form>
         <div>
             <p id="formFeedback"></p>
         </div>
+    </div>
+    <div id="formFeedback">
+
     </div>
 <div class="greyBG">
     <div class="links">
