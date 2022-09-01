@@ -1,0 +1,42 @@
+@use "font" as f;
+@use "colors" as c;
+@use "navbar";
+@use "footer";
+
+*{
+    font-family: f.$ubuntuFont;
+}
+
+body{
+    margin: 0;
+}
+
+.greyBG{
+    background-color: c.$bgGrey;
+}
+
+.columns{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.talksBorder{
+    border: 1px solid c.$ubuntuOrange;
+    margin-bottom: 10px;
+}
+
+.talkCard{
+    border: 2px solid c.$warmGrey;
+    padding: 5px;
+    background-color: c.$bgGrey;
+    margin-bottom: 5px;
+}
+
+footer{
+    margin-top: 15px;
+}

@@ -1,1 +1,125 @@
-/*# sourceMappingURL=program.css.map */
+nav {
+  height: 80px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.298);
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+nav figure {
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+  margin-top: 0;
+  height: 100%;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+  transition: 400ms;
+}
+nav ul li a {
+  color: #FFFFFF;
+  font-size: x-large;
+  font-weight: 200;
+  border-bottom: 2px #E95420 solid;
+}
+nav ul li:hover {
+  background-color: rgba(247, 247, 247, 0.0431372549);
+}
+
+.footerFlex {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.footerFlex li {
+  list-style: none;
+}
+.footerFlex li a {
+  text-decoration: none;
+}
+
+.socialMedia {
+  display: flex;
+}
+.socialMedia figure {
+  margin: 5px;
+}
+.socialMedia img {
+  height: 35px;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 3%;
+  width: 100%;
+}
+.footerLinks a {
+  color: #111111;
+}
+.footerLinks a:hover {
+  border-bottom: 1px #000000 solid;
+}
+
+footer {
+  height: 75px;
+  border-top: 2px #E95420 solid;
+}
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.greyBG {
+  background-color: #f7f7f7;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+.columns a {
+  text-decoration: none;
+  color: black;
+}
+
+.talksBorder {
+  border: 1px solid #E95420;
+  margin-bottom: 10px;
+}
+
+.talkCard {
+  border: 2px solid #AEA79F;
+  padding: 5px;
+  background-color: #f7f7f7;
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 15px;
+}/*# sourceMappingURL=program.css.map */
