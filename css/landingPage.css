@@ -265,6 +265,10 @@ h3 {
   color: red;
 }
 
+.success {
+  border-color: green;
+}
+
 @media screen and (max-width: 576px) {
   nav {
     height: 250px;

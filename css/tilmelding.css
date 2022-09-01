@@ -195,6 +195,10 @@ h3 {
   color: red;
 }
 
+.success {
+  border-color: green;
+}
+
 @media screen and (max-width: 576px) {
   nav {
     height: 250px;
@@ -233,4 +237,20 @@ body {
 
 .checkboxContainer {
   margin-top: 5%;
+}
+
+.dageFlex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 15px;
+}
+
+.feedbackPositioning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.feedbackPositioning p {
+  margin: 4px;
 }/*# sourceMappingURL=tilmelding.css.map */

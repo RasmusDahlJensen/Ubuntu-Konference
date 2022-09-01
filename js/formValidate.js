@@ -9,6 +9,7 @@ const errorText = document.getElementById("errorText")
 const form = document.getElementById("form")
 const formFeedback = document.getElementById("formFeedback")
 
+
 submitButton.addEventListener("click", validateForm)
 email.addEventListener("keypress", removeError)
 

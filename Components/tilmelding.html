@@ -63,31 +63,31 @@
                     <legend>Vælg hvilke dage du vil tilmelde dig til</legend>
                     <div class="checkBoxFlex">
                         <div>
-                            <input type="checkbox" name="monday" id="monday" value="monday">
+                            <input type="checkbox" name="weekdays" id="monday" value="Mandag">
                             <label for="monday">Mandag</label>
                         </div>
                         <div>
-                            <input type="checkbox" name="tuesda" id="tuesday" value="tuesday">
+                            <input type="checkbox" name="weekdays" id="tuesday" value="Tirsdag">
                             <label for="tuesday">Tirsdag</label>
                         </div>
                         <div>
-                            <input type="checkbox" name="wednesday" id="wednesday" value="wednesday">
+                            <input type="checkbox" name="weekdays" id="wednesday" value="Onsdag">
                             <label for="wednesday">Onsdag</label>
                         </div>
                         <div>
-                            <input type="checkbox" name="thursday" id="thursday" value="thursday">
+                            <input type="checkbox" name="weekdays" id="thursday" value="Torsdag">
                             <label for="thursday">Torsdag</label>
                         </div>
                         <div>
-                            <input type="checkbox" name="friday" id="friday" value="friday">
+                            <input type="checkbox" name="weekdays" id="friday" value="Fredag">
                             <label for="friday">Fredag</label>
                         </div>
                         <div>
-                            <input type="checkbox" name="saturday" id="saturday" value="saturday">
+                            <input type="checkbox" name="weekdays" id="saturday" value="Lørdag">
                             <label for="saturday">Lørdag</label>
                         </div>
                         <div>
-                            <input type="checkbox" name="sunday" id="sunday" value="sunday">
+                            <input type="checkbox" name="weekdays" id="sunday" value="Søndag">
                             <label for="sunday">Søndag</label>
                         </div>
                         
@@ -96,12 +96,15 @@
                 <button type="button" id="formSubmit">Send</button>
             </fieldset>
         </form>
-        <div>
-            <p id="formFeedback"></p>
-        </div>
     </div>
-    <div id="formFeedback">
-
+    <div class="feedbackPositioning">
+        <div>
+        <p id="formFeedback"></p>
+        <p id="dageTitel"></p>
+        <div class="dageFlex">
+            <p id="dageInput"></p>
+        </div>
+        </div>
     </div>
 
     <div class="greyBG">
