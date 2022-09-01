@@ -1,0 +1,21 @@
+@use "font" as f;
+@use "colors" as c;
+@use "navbar";
+@use "footer";
+
+
+*{
+    font-family: f.$ubuntuFont;
+}
+
+body{
+    margin: 0;
+}
+
+.greyBG{
+    background-color: c.$bgGrey;
+}
+
+#eventContainer{
+    margin: 20px 0 50px 0
+}

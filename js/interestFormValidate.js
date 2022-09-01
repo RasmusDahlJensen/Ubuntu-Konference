@@ -77,7 +77,7 @@ function validateForm() {
         //Feedback
         formFeedback.textContent ="Hej " + fullName.value + " tak for din tilmelding, vi har sendt kvittering til " + email.value
          if (iot.checked == true) {
-            dageTitel.textContent = "Du har vist interesse i IoT på følgende dage";
+            dageTitel.textContent = "Du har vist interesse i IoT på følgende dag(e)";
             for (const checkbox of checkboxes) {
                 if (checkbox.checked == true) {
                     dayOutput.textContent += checkbox.value + "   "
