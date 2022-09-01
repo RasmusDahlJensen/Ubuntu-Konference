@@ -18,13 +18,9 @@ const iot = document.getElementById("iot")
 const desktop = document.getElementById("desktop")
 
 //Day checkboxes
-const monday = document.getElementById("monday")
-const tuesday = document.getElementById("tuesday")
 const wednesday = document.getElementById("wednesday")
 const thursday = document.getElementById("thursday")
 const friday = document.getElementById("friday")
-const saturday = document.getElementById("saturday")
-const sunday = document.getElementById("sunday")
 
 
 submitButton.addEventListener("click", validateEmail)
@@ -71,9 +67,8 @@ function validateEmail() {
 
 function validateForm() {
     if (email.value.match(validMail) && (country.value.length > 3) && (adress.value.length > 3)
-    && (fullName.value.length > 3) && (monday.checked == true) || (tuesday.checked == true) || (wednesday.checked == true)
-    || (thursday.checked == true) || (friday.checked == true) || (saturday.checked == true) 
-    || (sunday.checked == true)) {
+    && (fullName.value.length > 3) &&  (wednesday.checked == true)
+    || (thursday.checked == true) || (friday.checked == true)) {
         //Form reset
         formFeedback.textContent = ""
         dageTitel.textContent = ""
