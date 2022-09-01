@@ -2,6 +2,8 @@
 @use "colors" as c;
 @use "navbar";
 @use "footer";
+@use "formStyle";
+@use "iotdesktop";
 
 // Fonts
 @include f.mainFonts;
@@ -13,4 +15,16 @@
 
 *{
     font-family: f.$ubuntuFont;
+}
+
+body{
+    margin: 0;
+}
+
+.greyBG{
+    background-color: c.$bgGrey;
+}
+
+nav{
+    margin-bottom: 80px;
 }

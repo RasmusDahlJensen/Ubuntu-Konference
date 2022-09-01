@@ -87,6 +87,100 @@ footer {
   border-top: 2px #E95420 solid;
 }
 
+.formContainer {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+
+fieldset {
+  width: 70%;
+  min-height: 80%;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: #E95420;
+  border: none;
+  color: #FFFFFF;
+  margin-top: 2%;
+}
+
+button:hover {
+  background-color: #e6450b;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: medium;
+  font-weight: 300;
+}
+
+.links {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3% 0 3% 0;
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+  flex-wrap: wrap;
+}
+.links li {
+  list-style: none;
+}
+.links li a {
+  text-decoration: none;
+}
+.links a {
+  color: #111111;
+  font-size: larger;
+  font-weight: 300;
+  display: block;
+}
+.links li {
+  margin-top: 7%;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+.links a:first-letter {
+  color: #E95420;
+  font-weight: 400;
+}
+
+.linkTitle {
+  display: flex;
+  justify-content: flex-start;
+}
+.linkTitle h3 {
+  font-size: x-large;
+}
+.linkTitle figure {
+  margin: 0;
+}
+
 @media screen and (max-width: 576px) {
   nav {
     height: 250px;
@@ -104,4 +198,16 @@ footer {
 }
 * {
   font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.greyBG {
+  background-color: #f7f7f7;
+}
+
+nav {
+  margin-bottom: 80px;
 }/*# sourceMappingURL=tilmelding.css.map */
