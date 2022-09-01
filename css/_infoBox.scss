@@ -6,12 +6,7 @@
     @include centerContent.center;
 }
 
-// .infoAccent{
-//     border-bottom: 1px c.$borderColor solid;
-//     margin-bottom: 25px;
-// }
 
-@mixin infoImg {
     .infoBox{
         figure{
             margin: 0;
@@ -23,9 +18,9 @@
         position: relative;
     } 
     }
-}
 
-@mixin infoContent {
+
+
     .infoContent{
         h2{
             position: absolute;
@@ -54,7 +49,6 @@
             
         }
     }
-}
 
 @mixin infoContentQuery {
     @media screen and (max-width:576px){

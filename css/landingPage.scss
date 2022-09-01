@@ -12,20 +12,11 @@
 @include f.mainFonts;
 
 // Navigation bar
-@include navbar.navBar;
 @include navbar.adaptiveNavbar;
 
-// Footer
-@include footer.footerFlex;
-@include footer.mediaIcon;
-@include footer.footerLinks;
-
 //Infobox
-@include infoBox.infoImg;
-@include infoBox.infoContent;
 @include infoBox.infoContentQuery;
 
-//Newsbox
 
 *{
     font-family: f.$ubuntuFont;

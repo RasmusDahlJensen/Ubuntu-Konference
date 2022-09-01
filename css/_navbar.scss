@@ -3,8 +3,6 @@
 @use "font" as f;
 @use "linkStyle";
 
-
-@mixin navBar {
     nav{
     height: 80px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.298);
@@ -45,7 +43,7 @@
             }
         }
     }
-}
+
 
 @mixin adaptiveNavbar {
     @media screen and (max-width:576px){

@@ -1,4 +1,87 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+nav {
+  height: 80px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.298);
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+nav figure {
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+  margin-top: 0;
+  height: 100%;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+  transition: 400ms;
+}
+nav ul li a {
+  color: #FFFFFF;
+  font-size: x-large;
+  font-weight: 200;
+  border-bottom: 2px #E95420 solid;
+}
+nav ul li:hover {
+  background-color: rgba(247, 247, 247, 0.0431372549);
+}
+
+.footerFlex {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.footerFlex li {
+  list-style: none;
+}
+.footerFlex li a {
+  text-decoration: none;
+}
+
+.socialMedia {
+  display: flex;
+}
+.socialMedia figure {
+  margin: 5px;
+}
+.socialMedia img {
+  height: 35px;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 3%;
+  width: 100%;
+}
+.footerLinks a {
+  color: #111111;
+}
+.footerLinks a:hover {
+  border-bottom: 1px #000000 solid;
+}
+
 footer {
   height: 75px;
   border-top: 2px #E95420 solid;
@@ -8,6 +91,41 @@ footer {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.infoBox figure {
+  margin: 0;
+  padding: 0;
+}
+.infoBox img {
+  max-width: 100%;
+  filter: brightness(30%);
+  position: relative;
+}
+
+.infoContent h2 {
+  position: absolute;
+  bottom: 60%;
+  left: 25%;
+  color: #FFFFFF;
+  font-weight: 300;
+  max-width: 40%;
+  bottom: 60%;
+}
+.infoContent button {
+  position: absolute;
+  bottom: 50%;
+  left: 25%;
+  background-color: #E95420;
+  border: 0;
+  border-radius: 15px;
+  padding: 20px;
+  color: #FFFFFF;
+  font-size: x-large;
+}
+.infoContent button:hover {
+  background-color: #e6450b;
+  cursor: pointer;
 }
 
 #newsBox {
@@ -133,55 +251,6 @@ h3 {
   font-weight: 300;
 }
 
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-}
-
-nav {
-  height: 80px;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.298);
-  background-color: #333333;
-  display: flex;
-  justify-content: center;
-}
-nav figure {
-  margin: 0;
-  padding: 0;
-}
-nav ul {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 7%;
-  margin-top: 0;
-  height: 100%;
-}
-nav ul li {
-  list-style: none;
-}
-nav ul li a {
-  text-decoration: none;
-}
-nav ul li {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  padding: 10px;
-  transition: 400ms;
-}
-nav ul li a {
-  color: #FFFFFF;
-  font-size: x-large;
-  font-weight: 200;
-  border-bottom: 2px #E95420 solid;
-}
-nav ul li:hover {
-  background-color: rgba(247, 247, 247, 0.0431372549);
-}
-
 @media screen and (max-width: 576px) {
   nav {
     height: 250px;
@@ -197,79 +266,6 @@ nav ul li:hover {
     font-size: large;
   }
 }
-.footerFlex {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-.footerFlex li {
-  list-style: none;
-}
-.footerFlex li a {
-  text-decoration: none;
-}
-
-.socialMedia {
-  display: flex;
-}
-.socialMedia figure {
-  margin: 5px;
-}
-.socialMedia img {
-  height: 35px;
-}
-
-.footerLinks {
-  display: flex;
-  gap: 3%;
-  width: 100%;
-}
-.footerLinks a {
-  color: #111111;
-}
-.footerLinks a:hover {
-  border-bottom: 1px #000000 solid;
-}
-
-.infoBox figure {
-  margin: 0;
-  padding: 0;
-}
-.infoBox img {
-  max-width: 100%;
-  filter: brightness(30%);
-  position: relative;
-}
-
-.infoContent h2 {
-  position: absolute;
-  bottom: 60%;
-  left: 25%;
-  color: #FFFFFF;
-  font-weight: 300;
-  max-width: 40%;
-  bottom: 60%;
-}
-.infoContent button {
-  position: absolute;
-  bottom: 50%;
-  left: 25%;
-  background-color: #E95420;
-  border: 0;
-  border-radius: 15px;
-  padding: 20px;
-  color: #FFFFFF;
-  font-size: x-large;
-}
-.infoContent button:hover {
-  background-color: #e6450b;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 576px) {
   .infoContent h2 {
     bottom: 45%;

@@ -1,0 +1,16 @@
+@use "font" as f;
+@use "colors" as c;
+@use "navbar";
+@use "footer";
+
+// Fonts
+@include f.mainFonts;
+
+// Navigation bar
+@include navbar.adaptiveNavbar;
+
+
+
+*{
+    font-family: f.$ubuntuFont;
+}
