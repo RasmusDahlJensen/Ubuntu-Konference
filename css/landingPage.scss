@@ -6,6 +6,7 @@
 @use "newsbox";
 @use "iotdesktop";
 @use "formStyle";
+@use "formColors";
 
 
 // Fonts
@@ -30,13 +31,6 @@ body{
     background-color: c.$bgGrey;
 }
 
-.error{
-    border-color: red;
-}
-
-#errorText{
-    color: red;
-}
 
 #formFeedback{
     height: 100%;

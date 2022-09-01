@@ -30,7 +30,6 @@ function validateForm() {
     // }
 }
 
-// email.addEventListener("keypress")
 
 
 

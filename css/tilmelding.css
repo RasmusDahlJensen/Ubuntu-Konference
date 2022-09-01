@@ -137,6 +137,12 @@ h3 {
   font-weight: 300;
 }
 
+.radioFlex {
+  display: flex;
+  gap: 5%;
+  margin-left: 5%;
+}
+
 .links {
   max-width: 1000px;
   margin-left: auto;
@@ -181,6 +187,14 @@ h3 {
   margin: 0;
 }
 
+.error {
+  border-color: red;
+}
+
+#errorText {
+  color: red;
+}
+
 @media screen and (max-width: 576px) {
   nav {
     height: 250px;
@@ -208,6 +222,15 @@ body {
   background-color: #f7f7f7;
 }
 
-nav {
-  margin-bottom: 80px;
+.formContainer {
+  height: 750px;
+}
+
+.checkBoxFlex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.checkboxContainer {
+  margin-top: 5%;
 }/*# sourceMappingURL=tilmelding.css.map */

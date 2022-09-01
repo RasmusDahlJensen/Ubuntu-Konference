@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tilmelding</title>
     <link rel="stylesheet" href="/css/tilmelding.css">
+    <script src="/js/interestFormValidate.js" defer></script>
 </head>
 <body>
     <nav>
@@ -34,11 +35,64 @@
                     <label for="fullName">Dit fulde navn:</label>
                     <input type="text" name="fullName" id="fullName">
                 </div>
+                <div>
+                    <label for="adress">Din addresse:</label>
+                    <input type="text" name="adress" id="adress">
+                </div>
+                <div>
+                    <label for="country">Dit land:</label>
+                    <input type="text" name="country" id="country">
+                </div>
                 <div class="input" id="emailInput">
                     <label for="email">Din email:</label>
                     <input type="text" name="email" id="email">
                     <span id="errorText" style="display:none;">Du har indtastet din email forkert</span>
                 </div>
+                <p>Hvilken er din primære interesse?</p>
+                <div class="radioFlex">
+                    <div>
+                        <input type="radio" name="interest" id="iot" value="iot">
+                        <label for="iot">IoT</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="interest" id="desktop" value="desktop">
+                        <label for="desktop">Desktop</label>
+                    </div>
+                </div>
+                <fieldset class="checkboxContainer">
+                    <legend>Vælg hvilke dage du vil tilmelde dig til</legend>
+                    <div class="checkBoxFlex">
+                        <div>
+                            <input type="checkbox" name="monday" id="monday" value="monday">
+                            <label for="monday">Mandag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="tuesda" id="tuesday" value="tuesday">
+                            <label for="tuesday">Tirsdag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="wednesday" id="wednesday" value="wednesday">
+                            <label for="wednesday">Onsdag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="thursday" id="thursday" value="thursday">
+                            <label for="thursday">Torsdag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="friday" id="friday" value="friday">
+                            <label for="friday">Fredag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="saturday" id="saturday" value="saturday">
+                            <label for="saturday">Lørdag</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="sunday" id="sunday" value="sunday">
+                            <label for="sunday">Søndag</label>
+                        </div>
+                        
+                    </div>
+                </fieldset>
                 <button type="button" id="formSubmit">Send</button>
             </fieldset>
         </form>

@@ -251,6 +251,20 @@ h3 {
   font-weight: 300;
 }
 
+.radioFlex {
+  display: flex;
+  gap: 5%;
+  margin-left: 5%;
+}
+
+.error {
+  border-color: red;
+}
+
+#errorText {
+  color: red;
+}
+
 @media screen and (max-width: 576px) {
   nav {
     height: 250px;
@@ -286,14 +300,6 @@ body {
 
 .greyBG {
   background-color: #f7f7f7;
-}
-
-.error {
-  border-color: red;
-}
-
-#errorText {
-  color: red;
 }
 
 #formFeedback {

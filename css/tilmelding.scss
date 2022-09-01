@@ -4,6 +4,7 @@
 @use "footer";
 @use "formStyle";
 @use "iotdesktop";
+@use "formColors";
 
 // Fonts
 @include f.mainFonts;
@@ -25,6 +26,18 @@ body{
     background-color: c.$bgGrey;
 }
 
-nav{
-    margin-bottom: 80px;
+// nav{
+//     margin-bottom: 10px;
+// }
+
+.formContainer{
+    height: 750px;
+}
+
+.checkBoxFlex{
+    display: flex;
+    justify-content: flex-start;
+}
+.checkboxContainer{
+    margin-top: 5%;
 }
