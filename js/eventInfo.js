@@ -53,8 +53,6 @@ function createCard() {
 
 }
 
-// single page app
-
 console.log(window.location);
 const params = new URLSearchParams(window.location.search); //
 const id = params.get('id');
