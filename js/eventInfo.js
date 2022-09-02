@@ -21,7 +21,14 @@ const chris = document.getElementById("chrisSmith")
 //event container
 // const container = document.getElementById("eventContainer")
 
-const nav = document.getElementsByTagName("nav")
+
+function createCard() {
+    const container = document.getElementById("eventContainer")
+    const paragraph = document.createElement("p")
+    console.log(container);
+    // container.appendChild(paragraph)
+    paragraph.textContent = "Success"
 
 
+}
 
