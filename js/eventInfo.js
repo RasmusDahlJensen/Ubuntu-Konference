@@ -1,5 +1,26 @@
 //Object
+let speakers = [{
+    id: 'olavEriksen',
+    name: 'Olaf Eriksen',
+    description: 'bla hblah blah',
 
+    eventHeadline: 'Bæst talk',
+    eventDescription: 'Test',
+    category: 'IOT',
+
+    talks: ['Onsdag - 26. Oktober klokken 10', 'Torsdag - 27. Oktober klokken 10']
+},
+{
+    id: 'mamouhdHassan',
+    name: 'Mamouhd Hassan',
+    description: 'OpenStack ensures TCO reduction',
+
+    eventHeadline: 'Bæst talk',
+    eventDescription: 'Test',
+    category: 'Desktop',
+
+    talks: ['nsdag - 26. Oktober klokken 12']
+}];
 
 //speaker links
 //IOT
@@ -32,3 +53,13 @@ function createCard() {
 
 }
 
+// single page app
+
+console.log(window.location);
+const params = new URLSearchParams(window.location.search); //
+const id = params.get('id');
+
+console.log(id);
+
+const speaker = speakers.find((s) => s.id === id);
+console.log(speaker);
