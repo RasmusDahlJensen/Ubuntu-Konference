@@ -4,7 +4,7 @@ let speakers = [{
     name: 'Olaf Eriksen',
     description: 'bla hblah blah',
 
-    eventHeadline: 'Bæst talk',
+    eventHeadline: 'talk',
     eventDescription: 'Test',
     category: 'IOT',
 
@@ -15,7 +15,7 @@ let speakers = [{
     name: 'Mamouhd Hassan',
     description: 'OpenStack ensures TCO reduction',
 
-    eventHeadline: 'Bæst talk',
+    eventHeadline: 'talk',
     eventDescription: 'Test',
     category: 'Desktop',
 
